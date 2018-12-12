@@ -1,0 +1,19 @@
+{
+    "driver_name" : "icc",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10148",
+            "type" : "command line warning",
+            "msg" : "option '-Wdate-time' not supported"
+        }
+    ],
+    "options" : [ "-I.", "-I..", "-I.", "-I.", "-I..", "-I../intl", "-I./../intl", "-I../gnulib-lib", "-I./../gnulib-lib", "-xHost", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=4", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-no-libgcc", "-DLOCALEDIR="/usr/share/locale"", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-DINSTALLDIR="/usr/bin"", "-ipo", "-c", "-o", "ngettext-ngettext.o" ],
+    "objects" : [
+        {
+            "object_name" : "ngettext-ngettext.o",
+            "source_name" : "ngettext.c",
+            "start_time" : "2018-11-21T03:09:17Z",
+            "end_time" : "2018-11-21T03:09:17Z"
+        }
+    ]
+}

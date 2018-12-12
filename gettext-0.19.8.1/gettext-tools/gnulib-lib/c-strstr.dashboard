@@ -1,0 +1,19 @@
+{
+    "driver_name" : "icc",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10148",
+            "type" : "command line warning",
+            "msg" : "option '-Wdate-time' not supported"
+        }
+    ],
+    "options" : [ "-I.", "-I..", "-I../intl", "-I../intl", "-I..", "-I..", "-I///usr/include/libxml2", "-I///usr/include/libcroco-0.6/libcroco", "-xHost", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=4", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-no-libgcc", "-DHAVE_CONFIG_H", "-DEXEEXT=""", "-DEXEEXT=""", "-DEXEEXT=""", "-DDEPENDS_ON_LIBICONV=1", "-DDEPENDS_ON_LIBINTL=1", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-ipo", "-c", "-o", "c-strstr.o" ],
+    "objects" : [
+        {
+            "object_name" : "c-strstr.o",
+            "source_name" : "c-strstr.c",
+            "start_time" : "2018-11-21T03:10:06Z",
+            "end_time" : "2018-11-21T03:10:06Z"
+        }
+    ]
+}

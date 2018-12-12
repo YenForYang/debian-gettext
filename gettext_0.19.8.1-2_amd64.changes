@@ -1,0 +1,75 @@
+Format: 1.8
+Date: Mon, 23 Jan 2017 23:11:50 +0100
+Source: gettext
+Binary: gettext-base gettext gettext-el gettext-doc autopoint libgettextpo0 libasprintf0v5 libgettextpo-dev libasprintf-dev
+Architecture: source all amd64
+Version: 0.19.8.1-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Santiago Vila <sanvila@debian.org>
+Changed-By: Santiago Vila <sanvila@debian.org>
+Description:
+ autopoint  - The autopoint program from GNU gettext
+ gettext    - GNU Internationalization utilities
+ gettext-base - GNU Internationalization utilities for the base system
+ gettext-doc - Documentation for GNU gettext
+ gettext-el - Emacs po-mode for editing gettext .po files
+ libasprintf-dev - GNU Internationalization library development files
+ libasprintf0v5 - GNU library to use fprintf and friends in C++
+ libgettextpo-dev - GNU Internationalization library development files
+ libgettextpo0 - GNU Internationalization library
+Closes: 833894 846932
+Changes:
+ gettext (0.19.8.1-2) unstable; urgency=medium
+ .
+   * Use debhelper more.
+   * Try to support cross-builds. Closes: #833894.
+   * Disable OpenMP support on m68k and sh4. Closes: #846932.
+Checksums-Sha1:
+ 3c39962dfd3c64104fdc27183af6a034a69e1091 1423 gettext_0.19.8.1-2.dsc
+ 02f38dc305abe3600ae98b420a9e86800db6da5b 21808 gettext_0.19.8.1-2.debian.tar.xz
+ 8db51f6531044076086633336bd8c28f8db7b320 433334 autopoint_0.19.8.1-2_all.deb
+ a89f61bb7c1899edd561e0145154d541a6daad62 5616 gettext-base-dbgsym_0.19.8.1-2_amd64.deb
+ aa47c5e3689245351ed30033140250faa78a0abe 138992 gettext-base_0.19.8.1-2_amd64.deb
+ 89f69376c50993a17aaf40311dee33578bd22568 53036 gettext-dbgsym_0.19.8.1-2_amd64.deb
+ 1d5164a5815273f9f307da1cb51a9b5e350a0f19 529074 gettext-doc_0.19.8.1-2_all.deb
+ a244fa2531e81c953585187b815e8b54fe0b8368 56940 gettext-el_0.19.8.1-2_all.deb
+ bbbc67f41c7a3f2c188b8e15606199930a9a6190 14268 gettext_0.19.8.1-2_amd64.buildinfo
+ c1c94ca68c5586827e626f72afa37fe91e86f30f 1712552 gettext_0.19.8.1-2_amd64.deb
+ c69b96ca6499e4f0d8abb4b232ae2db732367ebb 26212 libasprintf-dev_0.19.8.1-2_amd64.deb
+ af7c8865a31975280b4064651fd25b3b88297771 26374 libasprintf0v5_0.19.8.1-2_amd64.deb
+ 11da9a9626f98d457bc60d54f348021e4aab8e97 1548696 libgettextpo-dev_0.19.8.1-2_amd64.deb
+ 036463f61e6e0088dd4f36a8d425d517acc4f176 10976 libgettextpo0-dbgsym_0.19.8.1-2_amd64.deb
+ ad06c2587884a50eda6e5ea3d8c68e93e562f48a 212754 libgettextpo0_0.19.8.1-2_amd64.deb
+Checksums-Sha256:
+ f07d1ea64e6916848f638d739d1824bbd27d9661560b73f57288a368a1a5bf2d 1423 gettext_0.19.8.1-2.dsc
+ 24779cd26196995e8fff523a3f76f89945e4ecfcf5bde422ae10c6a1ff399640 21808 gettext_0.19.8.1-2.debian.tar.xz
+ 1e5ae7736b9bbfabcc3b7e1db8f9bebde8c741610e5d3f447baf42698814c46e 433334 autopoint_0.19.8.1-2_all.deb
+ ab13d68489c8ada0335bb82e66445d6bb2bfe6a4d60a09477eb88901f51ded4c 5616 gettext-base-dbgsym_0.19.8.1-2_amd64.deb
+ f24d602f16d39323aa760e8e08b85d009188954eb60f309aaae0ad1317589815 138992 gettext-base_0.19.8.1-2_amd64.deb
+ 736123b67cbbbd2f77dd4288067eeaa42c0dd696203982e2f448a9dd72179664 53036 gettext-dbgsym_0.19.8.1-2_amd64.deb
+ 56f4157ab01b1f43c7cb5b51c1ad0f41496fa70fa8490242e3c243cdd2b32afb 529074 gettext-doc_0.19.8.1-2_all.deb
+ 633af69e390db5abf7acf9b07a03156d2b7a0fc69aafcf322b8f4ba6f890c2cd 56940 gettext-el_0.19.8.1-2_all.deb
+ e0dcc254a30aef9b0e38c74f9d0c41e19bbaa2b61a8213b6d7266cd76fda9a08 14268 gettext_0.19.8.1-2_amd64.buildinfo
+ 63c121630a0089c8218d3c5af0f83125b31500e2df4cf252daa37a279a471311 1712552 gettext_0.19.8.1-2_amd64.deb
+ d1933c0b8cc9cf16efe48b877e6e3ca80a3ac0954f6854956698acf0fde0ba49 26212 libasprintf-dev_0.19.8.1-2_amd64.deb
+ 3ed5ad8006c1fcc3850ab3c20d293021b1904ee71fd38f072dd1dbbfa6e12aa0 26374 libasprintf0v5_0.19.8.1-2_amd64.deb
+ 7a055546bc488a26ac25ac4b8ec14b63010d01f89826cc1a3f1f4dbfe8a8dfc6 1548696 libgettextpo-dev_0.19.8.1-2_amd64.deb
+ e95e2fe5c325ce37428ab2fe8a0357ed085acb23f149d37a68b9df28c702814f 10976 libgettextpo0-dbgsym_0.19.8.1-2_amd64.deb
+ ea577c67f44d4b75bee2eeb12919ad93991868881b7fe8a19ecc0788e39b6487 212754 libgettextpo0_0.19.8.1-2_amd64.deb
+Files:
+ 9eeab37189ec8addaccc74fdea98b60f 1423 devel optional gettext_0.19.8.1-2.dsc
+ e3f4f17a4ca6d6f6560fedf77734cc90 21808 devel optional gettext_0.19.8.1-2.debian.tar.xz
+ 1a41ffba8a9a112db8b51891599747c1 433334 devel optional autopoint_0.19.8.1-2_all.deb
+ 917051857450349b30a54669ce351e23 5616 debug optional gettext-base-dbgsym_0.19.8.1-2_amd64.deb
+ bed780069883bd5f0b0cb90f66cd6b11 138992 utils standard gettext-base_0.19.8.1-2_amd64.deb
+ 7d30e0fc450232daa3b966fdb21a0b3c 53036 debug optional gettext-dbgsym_0.19.8.1-2_amd64.deb
+ 4d33b121f8a4980d8e5e9bfcb8668558 529074 doc optional gettext-doc_0.19.8.1-2_all.deb
+ f8fd76b46ee6c5bac254058dbf21a409 56940 lisp optional gettext-el_0.19.8.1-2_all.deb
+ da27d6b93c4e511530853881217dd7a6 14268 devel optional gettext_0.19.8.1-2_amd64.buildinfo
+ 5448b190fdd728b0113279687b5dbf03 1712552 devel optional gettext_0.19.8.1-2_amd64.deb
+ 5cfc411c3fbfb19cebd0bd64707ae767 26212 libdevel optional libasprintf-dev_0.19.8.1-2_amd64.deb
+ a8ff013809ec2e803502e32a9ca0f2ae 26374 libs optional libasprintf0v5_0.19.8.1-2_amd64.deb
+ efcf5490c7f523cd18a12717bf5b3d73 1548696 libdevel optional libgettextpo-dev_0.19.8.1-2_amd64.deb
+ 941fee08a1900ae2be420bb2b3f495c8 10976 debug optional libgettextpo0-dbgsym_0.19.8.1-2_amd64.deb
+ 4105bd7a73ffaf5e213c20a09f91e826 212754 libs optional libgettextpo0_0.19.8.1-2_amd64.deb

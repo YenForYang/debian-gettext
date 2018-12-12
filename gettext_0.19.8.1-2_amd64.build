@@ -1,0 +1,19 @@
+ dpkg-buildpackage -D -us -uc -ui -b -Jauto -Pnobiarch,nocheck
+dpkg-buildpackage: info: source package gettext
+dpkg-buildpackage: info: source version 0.19.8.1-2
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Santiago Vila <sanvila@debian.org>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+rm -f build
+[ ! -f Makefile ] || /usr/bin/make distclean
+make[1]: Entering directory '/home/richard/debs/NONGIT/gettext/gettext-0.19.8.1'
+Making distclean in gnulib-local
+make[2]: Entering directory '/home/richard/debs/NONGIT/gettext/gettext-0.19.8.1/gnulib-local'
+make[2]: *** No rule to make target 'distclean'.  Stop.
+make[2]: Leaving directory '/home/richard/debs/NONGIT/gettext/gettext-0.19.8.1/gnulib-local'
+make[1]: *** [Makefile:414: distclean-recursive] Error 1
+make[1]: Leaving directory '/home/richard/debs/NONGIT/gettext/gettext-0.19.8.1'
+make: *** [debian/rules:56: clean] Error 2
+dpkg-buildpackage: error: fakeroot debian/rules clean subprocess returned exit status 2

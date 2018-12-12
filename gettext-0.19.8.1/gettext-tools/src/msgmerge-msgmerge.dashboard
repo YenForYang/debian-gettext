@@ -1,0 +1,19 @@
+{
+    "driver_name" : "icc",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10148",
+            "type" : "command line warning",
+            "msg" : "option '-Wdate-time' not supported"
+        }
+    ],
+    "options" : [ "-I.", "-I..", "-I.", "-I.", "-I..", "-I..", "-I../libgrep", "-I../gnulib-lib", "-I../gnulib-lib", "-I../intl", "-I../../gettext-runtime/intl", "-xHost", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=4", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-no-libgcc", "-DLOCALEDIR="/usr/share/locale"", "-DBISON_LOCALEDIR="/usr/share/locale"", "-DLOCALE_ALIAS_PATH="/usr/share/locale"", "-DUSEJAVA=1", "-DUSEJEXE=0", "-DGETTEXTJEXEDIR="/usr/lib/gettext"", "-DGETTEXTJAR="/usr/share/gettext/gettext.jar"", "-DLIBDIR="/usr/lib"", "-DGETTEXTDATADIR="/usr/share/gettext"", "-DPROJECTSDIR="/usr/share/gettext/projects"", "-DHAVE_CONFIG_H", "-DINSTALLDIR="/usr/bin"", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-fopenmp", "-ipo", "-c", "-o", "msgmerge-msgmerge.o" ],
+    "objects" : [
+        {
+            "object_name" : "msgmerge-msgmerge.o",
+            "source_name" : "msgmerge.c",
+            "start_time" : "2018-11-21T03:15:20Z",
+            "end_time" : "2018-11-21T03:15:20Z"
+        }
+    ]
+}

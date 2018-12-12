@@ -1,0 +1,19 @@
+{
+    "driver_name" : "icc",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10148",
+            "type" : "command line warning",
+            "msg" : "option '-Wdate-time' not supported"
+        }
+    ],
+    "options" : [ "-I.", "-I..", "-I.", "-I.", "-I..", "-I..", "-I../src", "-I../src", "-I../intl", "-I../../gettext-runtime/intl", "-xHost", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=4", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-no-libgcc", "-DIN_LIBGETTEXTPO=1", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-ipo", "-DIN_LIBGETTEXTPO=1", "-DHAVE_CONFIG_H", "-c" ],
+    "objects" : [
+        {
+            "object_name" : "msgl-ascii.o",
+            "source_name" : "../src/msgl-ascii.c",
+            "start_time" : "2018-11-21T03:16:25Z",
+            "end_time" : "2018-11-21T03:16:25Z"
+        }
+    ]
+}

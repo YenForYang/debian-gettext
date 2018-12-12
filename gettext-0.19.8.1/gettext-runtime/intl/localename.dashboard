@@ -1,0 +1,19 @@
+{
+    "driver_name" : "icc",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10148",
+            "type" : "command line warning",
+            "msg" : "option '-Wdate-time' not supported"
+        }
+    ],
+    "options" : [ "-I.", "-I.", "-I..", "-xHost", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=4", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-no-libgcc", "-c", "-DLOCALEDIR="/usr/share/locale"", "-DLOCALE_ALIAS_PATH="/usr/share/locale"", "-DLIBDIR="/usr/lib"", "-DBUILDING_LIBINTL", "-DBUILDING_DLL", "-DIN_LIBINTL", "-DENABLE_RELOCATABLE=1", "-DIN_LIBRARY", "-DINSTALLDIR="/usr/lib"", "-DNO_XMALLOC", "-Dset_relocation_prefix=libintl_set_relocation_prefix", "-Drelocate=libintl_relocate", "-DDEPENDS_ON_LIBICONV=1", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-ipo", "-fvisibility=hidden", "-o", "localename.o" ],
+    "objects" : [
+        {
+            "object_name" : "localename.o",
+            "source_name" : "./localename.c",
+            "start_time" : "2018-11-21T03:08:51Z",
+            "end_time" : "2018-11-21T03:08:51Z"
+        }
+    ]
+}
